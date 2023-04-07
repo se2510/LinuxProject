@@ -1,0 +1,38 @@
+#!/bin/bash
+# Authors: Gonzalez Garcia David Elias and Cynthia Berenice
+# 
+# This command, prints the commands made for this proyect with its purpose.
+# Este comando imprime los comandos realizados para este proyecto/terminal.
+
+
+
+echo ".####.##....##.########..#######......######...#######..##.....##....###....##....##.########...#######...######.";
+echo "..##..###...##.##.......##.....##....##....##.##.....##.###...###...##.##...###...##.##.....##.##.....##.##....##";
+echo "..##..####..##.##.......##.....##....##.......##.....##.####.####..##...##..####..##.##.....##.##.....##.##......";
+echo "..##..##.##.##.######...##.....##....##.......##.....##.##.###.##.##.....##.##.##.##.##.....##.##.....##..######.";
+echo "..##..##..####.##.......##.....##....##.......##.....##.##.....##.#########.##..####.##.....##.##.....##.......##";
+echo "..##..##...###.##.......##.....##....##....##.##.....##.##.....##.##.....##.##...###.##.....##.##.....##.##....##";
+echo ".####.##....##.##........#######......######...#######..##.....##.##.....##.##....##.########...#######...######.";
+
+
+echo " =============================================================================================================== "
+echo " |                                                                                                              |"
+echo " |     lll         ------------------->     Este comando inicia el proceso e inicia Long Live Linux.            |"
+echo " |                                                                                                              |"
+echo " |     creditos    ------------------->     Este comando muestra los creditos a los creadores de este proyecto. |"
+echo " |                                                                                                              |"
+echo " |     fechayhora  ------------------->     Este comando imprime en pantalla la fecha y la hora del sistema.    |"
+echo " |                                                                                                              |"
+echo " |     dirsrc      ------------------->     Este comando busca un archivo en un directorio especificado.        |"
+echo " |                                                                                                              |"
+echo " |     gato        ------------------->     Este comando imprime el juego de gato, con el cual puedes jugar.    |"
+echo " |                                                                                                              |"
+echo " |     mp3         ------------------->     Este comando despliega un reproductor mp3 especial.                 |"
+echo " |                                                                                                              |"
+echo " |     infosys     ------------------->     Este comando permite mostrar la información del sistema.            |"
+echo " |                                                                                                              |"
+echo " |     ayuda       ------------------->     Este comando enlista y describe los comandos personalizados.        |"
+echo " |                                                                                                              |"
+echo " |     salir       ------------------->     Este comando termina el proceso de Long Live Linux.                 |"
+echo " |                                                                                                              |"
+echo " =============================================================================================================== "
