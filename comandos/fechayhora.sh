@@ -9,7 +9,7 @@
 # Well, we can find the hour and date in the directory /proc/driver/rtc , whitch contains the real
 # time and real date of the system.
 
-# Now, to print, we'll use "echo", but for search the info, we'll use "grep"
+# For search the info, we'll use "grep"
 # of wich will find the line that beggins with "rtc_time" (or date) in a certain directory
 # Later, with a tube, will return the line, so awk will print the text on that line, and in which 
 # column.
