@@ -4,13 +4,13 @@
 # This command search a file in a especified directory.
 # Este comando busca un archivo en un archivo especificado.
 
-name=""
-direc=""
-opcion=0
+name=""         # File name
+direc=""        # Directory
+opcion=0        
 
 echo "=*=*=*=*=*=*= B U S C A D O R    D E    A R C H I V O S =*=*=*=*=*=*="
 echo "====================================================================="
-echo " Bienvenide, $USER al buscador de arcivos :D " 
+echo " Bienvenide, $USER al buscador de archivos :D " 
 echo "====================================================================="
 echo "Tips para una buena busqueda!! :D : "
 echo "~Recuerda que el nombre del archivo debe de obedecer sus mayusculas como minusculas :0"
@@ -24,6 +24,7 @@ read -p "Ahora ingresa en que directorio a partir del usuario deseas buscarlo: "
 case $opcion in
 	1)
         echo "Estas buscando en el directorio: /home/$USER/$direc/$name"
+            # The "-e" flag, searches that directory, and if it exist, return TRUE
         if [ -e "/home/$USER/$direc/$name" ]; then
             echo "El archivo $name se encuentra en el directorio $direct! C:"
         else
