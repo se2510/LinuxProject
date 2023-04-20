@@ -4,6 +4,10 @@
 
 # Linux Project: Long Live Linux🐧
 
+<p>
+  <img src="https://media0.giphy.com/media/j4ABaI9BWdpYNI9ric/giphy.gif?cid=ecf05e47pr9vshxfw1ius04al14xdxsi2g3oltoqfyoppx91&rid=giphy.gif&ct=s"  align = "right" width="100" >
+</p>
+
 ## Brief Desctription.📜
 
 On this Linux project for our Linux Course, my partner Cyntia and I, developed a functional terminal for GNU/Linux, with its own personal commands.
@@ -19,49 +23,83 @@ All of this is made for the PROTECO course: Linux.
 
 Long Live Linux (lll), is a Linux terminal made and tested on Ubuntu, of which has the following commands:
 
-lll : This command initiate Long Live Linux terminal.
+- **LLL**
+  - This command initiate Long Live Linux terminal.
 
-creditos: This command show the authors of this proyect.
+- **creditos**
+  - This command show the authors of this proyect.
 
-fechayhora : This command shows on screen the hour and the date.
+- **fechayhora**
+  - This command shows on screen the hour and the date.
 
-dirsrc : This command search a file in a especified directory.
+- **dirsrc**
+  - This command search a file in a especified directory.
 
-gato : This command let you play a minigame (Tic-tac-toe).
+- **gato**
+  - This command let you play a minigame (Tic-tac-toe).
 
-mp3 : This command displays a music player.
+- **mp3**
+  - This command displays a music player.
 
-infosys : This command shows on screen the system info.
+- **infosys**
+  - This command shows on screen the system info.
 
-ayuda : This command describes all the personalized commands made for this proyect.
+- **ayuda**
+  - This command describes all the personalized commands made for this proyect.
 
-salir : This command ends the process of Long Live Linux.
+- **salir**
+  - This command ends the process of Long Live Linux.
+
+<p >
+  <img src="https://media1.giphy.com/media/MCRQ0Nkn4KfeQDdM7N/giphy.gif?cid=ecf05e47k3fwqzbgjsxf0s13ooqkk3ozxqp3bkr4aul9mepy&rid=giphy.gif&ct=s"  align = "right" width="100"/>
+</p>
+
+<br>
+</br>
+
+#### Now described the commands on spanish: 🇲🇽
+
+<p>
+  <img src="https://media2.giphy.com/media/l1J9RN2h96SR0A492/giphy.gif?cid=ecf05e47pr9vshxfw1ius04al14xdxsi2g3oltoqfyoppx91&rid=giphy.gif&ct=s" align = "right" width="150"/>
+</p>
+
+- **LLL**
+  - Este comando inicia el proceso e inicia Long Live Linux.
+
+- **creditos**
+  - Este comando muestra los creditos a los creadores de este proyecto.
+
+- **fechayhora**
+  - Este comando imprime en pantalla la fecha y la hora del sistema.
+
+- **dirsrc**
+  - Este comando busca un archivo en un directorio especificado.
+
+- **gato**
+  - Este comando imprime el juego de gato, con el cual puedes jugar.
+
+<p >
+  <img src="https://media0.giphy.com/media/jxETRYAi2KReel7pqy/giphy.gif?cid=ecf05e47ehnfwtem5z3qxerbo88amrnobiden6hnutvfgmbj&rid=giphy.gif&ct=g"  align = "right" width="200"/>
+</p>
+
+- **mp3**
+  - Este comando despliega un reproductor mp3 especial.
+
+- **infosys**
+  - Este comando permite mostrar la información del sistema.
+
+- **ayuda**
+  - Este comando enlista y describe los comandos personalizados.
+
+- **salir**
+  - Este comando termina el proceso de Long Live Linux.
+
 
 <br>
 
-
-
-
-
-
 </br>
 
-####Now described the commands on spanish:
+<p align = "center">
+  <img src="https://media3.giphy.com/media/4N5ddOOJJ7gtKTgNac/giphy.gif?cid=ecf05e470ks7zxethgzg6toqq9hj4yow8w17vlqvk2fns1nj&rid=giphy.gif&ct=g"  width="500"/>
+</p>
 
-lll -------------------> Este comando inicia el proceso e inicia Long Live Linux.
-
-creditos -------------------> Este comando muestra los creditos a los creadores de este proyecto.
-
-fechayhora -------------------> Este comando imprime en pantalla la fecha y la hora del sistema.
-
-dirsrc -------------------> Este comando busca un archivo en un directorio especificado.
-
-gato -------------------> Este comando imprime el juego de gato, con el cual puedes jugar.
-
-mp3 -------------------> Este comando despliega un reproductor mp3 especial.
-
-infosys -------------------> Este comando permite mostrar la información del sistema.
-
-ayuda -------------------> Este comando enlista y describe los comandos personalizados.
-
-salir -------------------> Este comando termina el proceso de Long Live Linux.
