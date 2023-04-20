@@ -35,6 +35,10 @@ Long Live Linux (lll), is a Linux terminal made and tested on Ubuntu, of which h
 - **dirsrc**
   - This command search a file in a especified directory.
 
+<p>
+<img src="https://media2.giphy.com/media/l1J9RN2h96SR0A492/giphy.gif?cid=ecf05e47pr9vshxfw1ius04al14xdxsi2g3oltoqfyoppx91&rid=giphy.gif&ct=s" align = "right" width="150"/>
+</p>
+
 - **gato**
   - This command let you play a minigame (Tic-tac-toe).
 
@@ -54,14 +58,9 @@ Long Live Linux (lll), is a Linux terminal made and tested on Ubuntu, of which h
   <img src="https://media1.giphy.com/media/MCRQ0Nkn4KfeQDdM7N/giphy.gif?cid=ecf05e47k3fwqzbgjsxf0s13ooqkk3ozxqp3bkr4aul9mepy&rid=giphy.gif&ct=s"  align = "right" width="100"/>
 </p>
 
-<br>
-</br>
 
-#### Now described the commands on spanish: 🇲🇽
 
-<p>
-  <img src="https://media2.giphy.com/media/l1J9RN2h96SR0A492/giphy.gif?cid=ecf05e47pr9vshxfw1ius04al14xdxsi2g3oltoqfyoppx91&rid=giphy.gif&ct=s" align = "right" width="150"/>
-</p>
+### Now described the commands on spanish: 🇲🇽
 
 - **LLL**
   - Este comando inicia el proceso e inicia Long Live Linux.
