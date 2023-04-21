@@ -25,14 +25,15 @@ while true; do
     echo "*██***██*██****██*██******██****██*██******██***██**********██*██***██*██*██***██*██***██*"
     echo "*██***██**██████***██████**██████**███████*██***██*****███████*██***██*██*██████**██***██*"
     echo "******************************************************************************************"
-    echo "************************************MadeBy: Cynthia and Deivi*****************************"
+    echo "******************************MadeBy: Cynthia and Deivi(>‿◠)✌*****************************"
     echo "=========================================================================================="
     echo ""
-    echo "1. Lista de Reproducción"
-    echo "2. Reproducir una canción"
-    echo "3. Aniadir directorio de musica :3"   
-    echo "4. Reproducir musica aleatoria. "  # No funka :B
-    echo "5. Salir"
+    echo "1. Lista de Reproducción."
+    echo "2. Reproducir una canción （っ＾▿＾）"
+    echo "3. Reproduce una cancion del directorio de tu preferencia. (͠≖ ͜ʖ͠≖)👌"  
+    echo "4. Reproduce varias canciones del directorio de tu preferencia. " 
+    echo "5. Reproduce musica aleatoria del directorio de tu preferencia. " 
+    echo "6. Salir. (╥︣﹏᷅╥)" 
     echo ""
     read -p "Ingrese una opción (1-5): " opcion
 
@@ -62,9 +63,8 @@ while true; do
         echo ""
         echo ""
         echo "Reproduciendo: $cancion"
-        echo "F: Siguiente cancion"
+        echo ""
         echo "S: Pausar/Reanudar"
-        echo "D: Cancion anterior"
         echo "-: Bajar volumen"
         echo "+: Subir volumen"
         echo "B: Repetir cancioncirri"
@@ -97,6 +97,7 @@ while true; do
         echo ""
         echo ""
         echo "Reproduciendo: $cancion"
+        echo ""
         echo "F: Siguiente cancion"
         echo "S: Pausar/Reanudar"
         echo "D: Cancion anterior"
@@ -115,11 +116,11 @@ while true; do
         clear
         direc=""
         echo "======================================"
-        echo " Aniadiendo directorio :D "
+        echo " Musica de directorio :D "
         echo "======================================"
         read -p "Indica la ruta absoluta de tu directorio ;3: " direc
 
-        cd $direc
+        cd $direc # /home/deivi/Música
 
         lista=$(ls *.mp3)
 
@@ -133,9 +134,8 @@ while true; do
         echo ""
         echo ""
         echo "Reproduciendo: $cancion"
-        echo "F: Siguiente cancion"
+        echo ""
         echo "S: Pausar/Reanudar"
-        echo "D: Cancion anterior"
         echo "-: Bajar volumen"
         echo "+: Subir volumen"
         echo "B: Repetir cancioncirri"
@@ -147,7 +147,50 @@ while true; do
         done
         cd ..
         ;;
-    4)       # No funka :B
+    4)
+
+        clear
+        direc=""
+        echo "========================================================="
+        echo "          VARIAS CANCIONES DE TU DIRECTORIO 7u7          "
+        echo " En esta opcion, reproduce la musica de tu directorio en "
+        echo " un orden (lista), pudiendo navegar entre opciones.      "
+        echo "========================================================="
+        read -p "Indica la ruta absoluta de tu directorio ;3: " direc
+
+        cd $direc # /home/deivi/Música
+
+        lista=$(ls *.mp3)
+
+        echo " "
+        echo "Estas son las canciones de su directorio: "
+        echo ""
+        PS3="Reproducir directorio [cualquier tecla] o Salir[No. Asignado]: "
+        select cancion in $lista "Salir"; do
+        if [ "$cancion" == "Salir" ]; then
+            break
+        fi
+
+        echo ""
+        echo ""
+        echo "Reproduciendo: $direc"
+        echo ""
+        echo "F: Siguiente canción"
+        echo "S: Pausar/Reanudar"
+        echo "D: Canción anterior"
+        echo "-: Bajar volumen"
+        echo "+: Subir volumen"
+        echo "B: Repetir cancioncirri"
+        echo ".: Acelerar cancioncirri"
+        echo ",: Atrasar cancioncirri"
+        echo "Q: Detener y salir"
+        mpg123 -C --title -q $direc/*
+        break
+        done
+        cd ..
+        ;;
+
+    5)       
         clear
         direc=""
         echo "======================================"
@@ -157,23 +200,25 @@ while true; do
 
         cd $direc
 
-
         echo ""
         echo ""
         echo "Reproduciendo: $direc"
-        echo "F: Siguiente cancion"
+        echo ""
+        echo "F: Siguiente canción"
         echo "S: Pausar/Reanudar"
-        echo "D: Cancion anterior"
+        echo "D: Canción anterior"
         echo "-: Bajar volumen"
         echo "+: Subir volumen"
-        echo "B: Repetir cancioncirri"
-        echo ".: Acelerar cancioncirri"
-        echo ",: Atrasar cancioncirri"
+        echo "B: Repetir canción"
+        echo ".: Acelerar canción"
+        echo ",: Atrasar canción"
         echo "Q: Detener y salir"
-        mpg123 -C --title -q "$direc" # No funka :B
+                                # /home/deivi/Documentos/Github/LinuxProject/comandos/playlist
+        mpg123 -C --title -q -z $direc/* 
         ;;
-    5)
+    6)
         echo "¡Thanks for being in our hearts :D <3!"
+        echo "Take care ( ˘︹˘ ), bye..."
         exit 0
         ;;
     
