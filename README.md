@@ -10,7 +10,7 @@
 
 ## Brief Desctription.📜
 
-On this Linux project for our Linux Course, my partner Cyntia and I, developed a functional terminal for GNU/Linux, with its own personal commands.
+On this Linux project for our Linux Course, my partner Cyntia and I, developed a simulation of a functional Linux terminal for GNU/Linux, with its own personal commands.
 
 All of this is made for the PROTECO course: Linux.
 
@@ -21,7 +21,7 @@ All of this is made for the PROTECO course: Linux.
 
 ## What is Long Live Linux.❓️
 
-Long Live Linux (lll), is a Linux terminal made and tested on Ubuntu, of which has the following commands:
+Long Live Linux (lll), is a simulation of a Linux terminal made and tested on Ubuntu, of which has the following commands:
 
 - **LLL**
   - This command initiate Long Live Linux terminal.
@@ -39,7 +39,7 @@ Long Live Linux (lll), is a Linux terminal made and tested on Ubuntu, of which h
 <img src="https://media2.giphy.com/media/l1J9RN2h96SR0A492/giphy.gif?cid=ecf05e47pr9vshxfw1ius04al14xdxsi2g3oltoqfyoppx91&rid=giphy.gif&ct=s" align = "right" width="150"/>
 </p>
 
-- **gato**
+- **mishi**
   - This command let you play a minigame (Tic-tac-toe).
 
 - **mp3**
@@ -74,7 +74,7 @@ Long Live Linux (lll), is a Linux terminal made and tested on Ubuntu, of which h
 - **dirsrc**
   - Este comando busca un archivo en un directorio especificado.
 
-- **gato**
+- **mishi**
   - Este comando imprime el juego de gato, con el cual puedes jugar.
 
 <p >
