@@ -4,10 +4,14 @@
 # This command displays an mp3.
 # Este comando es un mp3! :D, guau!
 
+    # In the if statement,the "command -v" searches the precense of mpg123 on the system, and 
+    # returns 0 (true) if its installed, and if returns a different character than 0 (false) 
+    # means that it is not installed. The exit of that command (if it is installed it should be
+    #  /usr/bin) will return to /dev/null, just to not be printed on terminal. 
 
-
-
-while true; do
+if command -v mpg123 &> /dev/null 
+then
+    while true; do
     clear
     echo "=========================================================================================="
     echo "******************************************************************************************"
@@ -228,5 +232,31 @@ while true; do
     esac
 
     read -n 1 -s -r -p "Presione cualquier tecla para continuar"
-done
+    done
+else
+    opc=""
+    read -p "mpg123 no está instalado :C, deseas instalarlo? [S/N](no seas tibio): " opc
+    case $opc in
+    "n"|"N")
+        echo ""
+        echo "Pues bueno, decidiste ser tibio, en UNICA hay lugares para ti..."
+        echo ""
+        exit
+        ;;
+    "s"|"S")
+        echo ""
+        echo "Se instalara entonces.... "
+        echo ""
+        sudo apt install mpg123 
+        echo "Listones!, se ha instalado C: "
+        echo ""
+        exit
+        ;;
+    *)
+        echo ""
+        echo "Guatefoc???, que has puesto? " 
+        echo ""
+        ;;
+    esac
 
+fi
