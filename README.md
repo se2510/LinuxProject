@@ -51,7 +51,7 @@ Long Live Linux (lll), is a simulation of a Linux terminal made and tested on Ub
 - **ayuda**
   - This command describes all the personalized commands made for this proyect.
 
-- **salir**
+- **bai**
   - This command ends the process of Long Live Linux.
 
 <p >
@@ -90,7 +90,7 @@ Long Live Linux (lll), is a simulation of a Linux terminal made and tested on Ub
 - **ayuda**
   - Este comando enlista y describe los comandos personalizados.
 
-- **salir**
+- **bai**
   - Este comando termina el proceso de Long Live Linux.
 
 
